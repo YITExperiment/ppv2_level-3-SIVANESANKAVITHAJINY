@@ -1,9 +1,9 @@
-import turtle as t 
+import turtle as t
 
 def rectangle(horizontal,vertical,color):
     t.pendown()
     t.pensize(1)
-    t.color(color)
+    t.color (color)
     t.begin_fill()
     for counter in range(1,3):
         t.forward(horizontal)
@@ -15,42 +15,42 @@ def rectangle(horizontal,vertical,color):
 
 t.penup()
 t.speed('slow')
-t.bgcolor('Dodger blue')
+t.bgcolor('Black')
 
 #feet
 t.goto(-100, -150)
-rectangle(50,20,'blue')
+rectangle(50,20,'gold')
 t.goto(-30,-150)
-rectangle(50,20,'blue')
+rectangle(50,20,'gold')
 
 #legs
 t.goto(-25, -50)
-rectangle(15,100,'grey')
+rectangle(15,100,'peru')
 t.goto(-55,-50)
-rectangle(-15,100,'grey')
+rectangle(-15,100,'peru')
 
 #body
 t.goto(-90,100)
-rectangle(100,150,'red')
+rectangle(100,150,'pink')
 
 #arms
 t.goto(-150, 70)
-rectangle(60,15,'grey')
+rectangle(60,15,'peru')
 t.goto(-150,110)
-rectangle(15,40,'grey')
+rectangle(15,40,'peru')
 
 t.goto(10, 70)
-rectangle(60,15,'grey')
+rectangle(60,15,'peru')
 t.goto(55,110)
-rectangle(15,40,'grey')
+rectangle(15,40,'peru')
 
 #neck
 t.goto(-50,120)
-rectangle(15,20,'grey')
+rectangle(15,20,'maroon')
 
 #head
 t.goto(-85,170)
-rectangle(80,50,'red')
+rectangle(80,50,'yellow')
 
 #eyes
 t.goto(-60, 160)
