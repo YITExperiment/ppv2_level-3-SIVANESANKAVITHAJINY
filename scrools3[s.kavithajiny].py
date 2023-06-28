@@ -9,7 +9,7 @@ def draw_shape(size, angle, shift, shape):
     if shape == 'circle':
         turtle.circle(size)
         next_shape = 'squre'
-    if shape == 'squre':
+    elif shape == 'squre':
       for i in range(4):
           turtle.forward(size+2)
           turtle.left(90)
